@@ -1,7 +1,7 @@
 from os.path import join
 
-from pytmx import TiledMap
-from pytmx.util_pygame import load_pygame
+from pytmx import TiledMap  # type: ignore
+from pytmx.util_pygame import load_pygame  # type: ignore
 from settings import *
 from sprites import Sprite
 
